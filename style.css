@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(14, 22, 25);
+    color: rgb(75, 130, 155);
+    font-family: 'Lato', sans-serif;
+}
+a{
+    color: rgb(75, 130, 155);
+    font-weight: 700;
+}
+a:hover{
+    color: rgb(97, 153, 179);
+}
+
+h1 {
+    font-family:  'Rowdies';
+    color: rgb(248, 151, 25);
+    font-size: 1em;
+}
