@@ -19,28 +19,27 @@
     <nav class="site-header sticky-top py-1">
         <div class="container d-flex flex-column flex-md-row justify-content-between">
             <h1 class="py-2 d-none d-md-inline-block">LEM_PL</h1>
-            <a class="py-2 d-none d-md-inline-block" href="https://twitch.tv/lem_pl" target="_blank">Twitch</a>
+            <a class="py-2 d-none d-md-inline-block" href="https://twitch.tv/_lem_pl" target="_blank">Twitch</a>
             <a class="py-2 d-none d-md-inline-block" href="https://instagram.com/lem_pl_" target="_blank">Instagram</a>
             <a class="py-2 d-none d-md-inline-block" href="#">O mnie</a>
         </div>
     </nav>
 
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-        <div class="col-md-12 p-lg-12 mx-auto my-12">
-            <!-- Add a placeholder for the Twitch embed -->
-            <div id="twitch-embed"></div>
+    <main class="main">
+            
+                <!-- Add a placeholder for the Twitch embed -->
+<div id="twitch-embed"></div>
 
-            <!-- Load the Twitch embed script -->
-            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+<!-- Load the Twitch embed script -->
+<script src="https://player.twitch.tv/js/embed/v1.js"></script>
 
-            <!-- Create a Twitch.Player object. This will render within the placeholder div -->
-            <script type="text/javascript">
-                new Twitch.Player("twitch-embed", {
-                    channel: "lem_pl"
-                });
-            </script>
-        </div>
-    </div>
+<!-- Create a Twitch.Player object. This will render within the placeholder div -->
+<script type="text/javascript">
+  new Twitch.Player("twitch-embed", {
+    channel: "lem_pl"
+  });
+</script>
+            </main>
 
     <!-- bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
